@@ -1,17 +1,16 @@
-# Rex Kelly — Personal Portfolio
+# Rex Kelly — Portfolio
 
-The source for [kelly26ici.github.io](https://kelly26ici.github.io/), a responsive, static portfolio site for Rex Kelly, AI Engineer.
+Personal portfolio: [kelly26ici.github.io](https://kelly26ici.github.io/).
 
-## Contents
+A one-page site built with HTML, CSS, and JavaScript. It includes an introduction, selected projects, the tools used in those projects, and contact links.
 
-- `index.html` — complete website markup, styles, and lightweight interactions.
-- `robots.txt` — allows public crawling and points crawlers to the sitemap.
-- `sitemap.xml` — lists the canonical portfolio homepage.
-- No build step, package manager, JavaScript framework, or third-party runtime dependency is required.
+## Projects
 
-## Run locally
+- [Business Chatbot](https://github.com/kelly26ici/business-chatbot) — WhatsApp customer assistant using an LLM, Redis, and Supabase.
+- [Personal PDF Chatbot](https://github.com/kelly26ici/personal-pdf-chatbot) — PDF question answering with page citations and Qdrant.
+- [Diabetes API](https://github.com/kelly26ici/diabetes-api) — FastAPI prediction endpoint using scikit-learn.
 
-From the repository root:
+## Local preview
 
 ```sh
 python -m http.server 8000
@@ -19,17 +18,6 @@ python -m http.server 8000
 
 Open http://localhost:8000.
 
-## Publish with GitHub Pages
+## Hosting
 
-In the repository settings:
-
-1. Open **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main** and the **/ (root)** folder, then save.
-4. GitHub Pages will publish the site at https://kelly26ici.github.io/.
-
-If Pages is already configured for this repository, merging changes into `main` should trigger a deployment automatically.
-
-## Updating the site
-
-Edit `index.html`, preview it locally, and submit changes through a feature branch and pull request. Keep the Google Search Console verification meta tag in the document head unless the site is re-verified with a replacement token.
+The site is published with GitHub Pages from this repository.
