@@ -5,6 +5,8 @@ The source for [kelly26ici.github.io](https://kelly26ici.github.io/), a responsi
 ## Contents
 
 - `index.html` — complete website markup, styles, and lightweight interactions.
+- `robots.txt` — allows public crawling and points crawlers to the sitemap.
+- `sitemap.xml` — lists the canonical portfolio homepage.
 - No build step, package manager, JavaScript framework, or third-party runtime dependency is required.
 
 ## Run locally
